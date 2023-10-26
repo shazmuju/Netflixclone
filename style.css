@@ -1,0 +1,310 @@
+* {
+    font-family: "Inter", sans-serif;
+    
+  }
+  body{
+    background-color:#434343;
+  }
+  
+header{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("background-banner.jpg");
+    background-size: cover;
+    background-position: 50%;
+    height: 90vh;
+}
+
+/* navbar  starts here */
+
+.navbar-brand img{
+    width: 150px;
+}
+
+
+.nav-left .signin{
+    background: rgb(229, 9, 20);
+    color: #fff;
+    padding: 5px 17px;
+}
+.nav-left .signin:hover{
+    background: rgb(193, 17, 25);
+   
+    
+}
+/* navbar  ends here */
+
+/* hero starts here */
+.hero .hero-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.hero .her0-first-p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.hero .her0-second-p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.main-search {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+  }
+  .main-search-sub {
+    width: 500px;
+    border: 2px solid white;
+    height: 40px;
+    color: #fff;
+  }
+  .main-btn {
+    background-color: #e50914;
+    color: white;
+    font-weight: 400;
+    border: 2px solid #e50914;
+    width: 200px;
+    height: 40px;
+  }
+  .partition {
+    height: 50vh;
+    width: 100%;
+    /* border: 2px solid green; */
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .partition-heading h2 {
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+  }
+  .partition-heading p {
+    color: white;
+    font-size: large;
+    font-weight: 400;
+  }
+  .partition-img img {
+    width: 300px;
+    height: 200px;
+  }
+  .partition2 {
+    flex-direction: row-reverse;
+  }
+  .faq {
+    /* height: 70vh; */
+    margin-bottom: 3px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 2px solid red; */
+  }
+  .faq h1 {
+    padding: 1em;
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+  }
+  .btn-faq {
+    background-color: #434343;
+    height: 50px;
+    width: 40vw;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 1em;
+    align-items: center;
+    font-size: large;
+    font-weight: 400;
+  }
+  .card-body1 {
+    width: 40vw;
+    border-radius: 0%;
+  }
+  .card {
+    background-color: #434343 !important;
+    color: #fff !important;
+    padding: 0.5em;
+    margin: 0.2em;
+  }
+  .faq p {
+    color: white;
+  }
+  .main-search{
+    margin: 1em;
+  }
+  footer {
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+ul {
+    margin-top: 10px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+
+}
+
+.foot-panel3 {
+    background-color: black;
+    border-top: 0.5px solid  black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url('Netflix logo.png');
+    height: 50px;
+    width: 150px;
+    background-size: cover;
+    align-items: center;
+}
+
+.foot-panel4 {
+    background-color: black;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+
+
+
+.pages {
+    padding-top: 25px;
+}
+
+.copyright {
+    padding-top: 5px;
+
+}
+  
+  @media only screen and (max-width: 992px){
+    .navbar-brand img{
+        width: 43px;
+        height: 25px;
+    }
+    
+    header {
+        height: 50vh;
+      }
+      .hero .hero-title {
+        text-align: center;
+        font-weight: 600;
+        color: white;
+        font-size: 2rem;
+      }
+      .hero{
+        width: 100%;
+        padding: 1em;
+        align-items: center;
+        justify-content: center;
+      }
+      .hero-first-p {
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        font-size: small;
+        margin: 1px;
+      }
+      .hero-second-p {
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        font-size: small;
+        margin: 1px;
+      }
+      
+      .main-search-sub {
+        margin: 0%;
+        width: 250%;
+        height: 40px;
+      }
+      .main-btn {
+        color: white;
+        font-weight: 400;
+        width: 150%;
+        height: 40px;
+        font-size: x-small;
+      }
+      ::placeholder{
+        font-weight: 400;
+        font-size: small;
+      }
+    .partition {
+      height: 32vh;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    .partition-heading h2 {
+      font-size: small;
+      font-weight: 900;
+    }
+    .partition-heading p {
+      color: white;
+      font-size: small;
+      font-weight: 400;
+    }
+    .partition-img img {
+      width: 150px;
+      height: 100px;
+    }
+    .faq h1{
+      text-align: center;
+      font-size: medium;
+      font-weight: 800;
+    }
+    .btn-faq {
+      height: 50px;
+      width: 300px;
+    }
+    .card-body1 {
+      width: 300px;
+    }
+    .faq p {
+      font-size: small;
+      font-weight: 500;
+      text-align: center;
+    }
+    .main-search2{
+      padding: 1em;
+    }
+  
+  }

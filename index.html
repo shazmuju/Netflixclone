@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=10">
+    <title>Netflix</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+
+</head>
+<body  style="background-color:#1e1e1e;">
+    <header class="position-relative ">
+        <!-- Netflix navbar starts -->
+        
+        <nav class="navbar navbar-light bg-light bg-transparent  ">
+          <div class="container">
+            <a class="navbar-brand ">
+              <img src="Netflix logo.png" alt="logo">
+            </a>
+            <div class=" nav-left d-flex ">
+              <div class="">
+              <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle  " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  English
+                </a>
+              
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">हिंदी</a></li> 
+                </ul>
+              </div>
+            </div>
+              <button class="btn btn-outline-danger signin" type="submit">Sign In</button>
+            </div>
+            
+          </div>
+        </nav>
+        <!-- Netflix navbar ends -->
+      <section class="hero container h-75 d-flex flex-column align-items-center  justify-content-center ">
+        <div>
+        <h1 class="hero-title text-center text-white" >Unlimited movies, TV shows and more</h1>
+        <p class="hero-first-p text-white text-center">Watch anywhere. Cancel anytime.</p>
+        <p class="hero-second-p text-white text-center">Ready to watch? Enter your email to create or restart your membership.</p>
+    
+        <form class="main-search main-search2" role="search">
+          <input id="channel"
+            class="main-search-sub bg-transparent"
+            type="search"
+            placeholder="Email address"
+            aria-label="Search"
+          />
+          <button onclick="welcome()" class="main-btn" type="submit">Get Started ></button>
+        </form>
+      </div>
+      </section>
+      </header>
+        <div class="partition">
+            <div class="partition-heading">
+                <h2>Enjoy on your TV</h2>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+            <div class="partition-img">
+                <img src="Tv movie poster.png" alt="">
+            </div>
+        </div>
+            <div class="partition partition2">
+                <div class="partition-heading">
+                    <h2>Download your shows to watch offline</h2>
+                    <p>Save your favourites easily and always have something to watch.</p>
+                </div>
+                <div class="partition-img">
+                    <img src="Partition 2 image.png" alt="">
+                </div>
+            </div>
+            <div class="partition partition3">
+                <div class="partition-heading">
+                    <h2>Watch everywhere</h2>
+                    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                </div>
+                <div class="partition-img">
+                    <img src="Partition tv img.png" alt="">
+                </div>
+            </div>
+    
+    <div class="faq">
+        <h1>Frequently Asked Questions</h1>
+        <p>
+          <a
+            class="btn-faq"
+            data-bs-toggle="collapse"
+            href="#collapseExample1"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample1"
+          >
+            What is Netflix?
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample1">
+          <div class="card card-body1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui et rem
+            debitis, itaque ipsum a maxime quod consectetur vitae ipsam officia
+            fugit temporibus, numquam officiis dicta sint, deleniti impedit
+            tenetur?
+          </div>
+        </div>
+        <p>
+          <a
+            class="btn-faq"
+            data-bs-toggle="collapse"
+            href="#collapseExample2"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample2"
+          >
+            How much does Netflix cost?
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample2">
+          <div class="card card-body1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            aliquam nam quia blanditiis a distinctio hic at voluptates dolorem
+            autem?
+          </div>
+        </div>
+        <p>
+          <a
+            class="btn-faq"
+            data-bs-toggle="collapse"
+            href="#collapseExample3"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample3"
+          >
+            Where can I watch?
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample3">
+          <div class="card card-body1">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
+            porro error tempora eveniet et illum id reiciendis voluptatum, non
+            magnam, veritatis consectetur quam molestiae eos.
+          </div>
+        </div>
+        <p>
+          <a
+            class="btn-faq"
+            data-bs-toggle="collapse"
+            href="#collapseExample4"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample4"
+          >
+            How do I cancel?
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample4">
+          <div class="card card-body1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            asperiores nulla quae sequi unde atque. Laudantium ipsam, at maiores
+            aspernatur earum qui, odio numquam voluptatum, laborum eum aliquid
+            odit quam!
+          </div>
+        </div>
+        <p>
+          <a
+            class="btn-faq"
+            data-bs-toggle="collapse"
+            href="#collapseExample5"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample5"
+          >
+            What can I watch on Netflix?
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample5">
+          <div class="card card-body1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            asperiores nulla quae sequi unde atque. Laudantium ipsam, at maiores
+            aspernatur earum qui, odio numquam voluptatum, laborum eum aliquid
+            odit quam!
+          </div>
+        </div>
+        <p>
+          <a
+            class="btn-faq"
+            data-bs-toggle="collapse"
+            href="#collapseExample6"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample6"
+          >
+            Is Netflix good for kids?
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample6">
+          <div class="card card-body1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            asperiores nulla quae sequi unde atque. Laudantium ipsam, at maiores
+            aspernatur earum qui, odio numquam voluptatum, laborum eum aliquid
+            odit quam!
+          </div>
+        </div>
+        <p>
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <form class="main-search main-search2" role="search">
+          <input
+            class="main-search-sub bg-transparent"
+            type="search"
+            placeholder="Email address"
+            aria-label="Search"
+          />
+          <button class="main-btn" type="submit">Get Started ></button>
+        </form>
+      </div>
+      <footer>
+        <div class="foot-panel1">
+          Questions? Call 000-800-919-1694
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>FAQ</p>
+                <a>Investor Relations</a>
+                <a>Privacy</a>
+                <a>Speed Test</a>
+            </ul>
+            <ul>
+              <p>FAQ</p>
+              <a>Investor Relations</a>
+              <a>Privacy</a>
+              <a>Speed Test</a>
+            </ul>
+            <ul>
+              <p>FAQ</p>
+              <a>Investor Relations</a>
+              <a>Privacy</a>
+              <a>Speed Test</a>
+            </ul>
+            <ul>
+              <p>FAQ</p>
+              <a>Investor Relations</a>
+              <a>Privacy</a>
+              <a>Speed Test</a>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of use</a>
+                <a>Privacy notice</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1996-2023, Netflix.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+    <!-- </div> -->
+    <!-- bootstrap js link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
